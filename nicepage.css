@@ -30160,12 +30160,14 @@ a.u-link.u-text-hover-grey-90:hover {
 .u-header .u-menu-1 {font-family: size-14; margin: -45px 0 32px auto}
 .u-header .u-nav-1 {font-size: 1rem; letter-spacing: 0; font-family: Poppins; background-image: none; font-weight: normal; text-transform: none}
 .u-header .u-nav-2 {font-size: 1rem} 
-@media (max-width: 1199px){ .u-header .u-image-1 {width: auto}
+@media (max-width: 1199px){ .u-header .u-image-1 {height: 56px}
 .u-header .u-menu-1 {width: auto}
 .u-header .u-nav-1 {font-size: 0.875rem} }
-@media (max-width: 991px){ .u-header .u-image-1 {width: 180px; height: 56px} }
 
 
+@media (max-width: 575px){ .u-header .u-sheet-1 {min-height: 85px}
+.u-header .u-image-1 {margin-top: 15px; width: auto}
+.u-header .u-menu-1 {margin-top: -42px; margin-bottom: 0} }
  .u-footer .u-sheet-1 {min-height: 305px}
 .u-footer .u-layout-wrap-1 {margin: 60px auto 0 0}
 .u-footer .u-layout-cell-1 {background-image: none; min-height: 131px}
