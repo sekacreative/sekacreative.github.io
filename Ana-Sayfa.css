@@ -1,4 +1,4 @@
-.u-section-1 {background-image: none}
+.u-section-1 {background-image: url("images/bck1.jpg"); background-position: 50% 50%}
 .u-section-1 .u-sheet-1 {min-height: 450px}
 .u-section-1 .u-group-1 {width: 560px; min-height: 200px; height: auto; margin: 170px auto 60px}
 .u-section-1 .u-container-layout-1 {padding: 28px 30px}
@@ -15,7 +15,8 @@
 .u-section-1 .u-container-layout-1 {padding-left: 10px; padding-right: 10px}
 .u-section-1 .u-text-1 {font-size: 1.5rem; line-height: 1.2} }
 
-@media (max-width: 575px){ .u-section-1 .u-sheet-1 {min-height: 420px}
+@media (max-width: 575px){ .u-section-1 {background-position: 74.72% 100%}
+.u-section-1 .u-sheet-1 {min-height: 420px}
 .u-section-1 .u-group-1 {min-height: 190px; margin-top: 60px; margin-right: initial; margin-left: initial; width: auto}
 .u-section-1 .u-container-layout-1 {padding: 20px 0}
 .u-section-1 .u-text-1 {margin-left: 19px; margin-right: 19px}
